@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Soulmates",
+    "slug": "soulmates",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "soulmates",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.soulmates.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Soulmates uses your location to show compatible people nearby.",
+        "NSPhotoLibraryUsageDescription": "Soulmates needs photo access so you can add profile pictures."
+      }
+    },
+    "android": {
+      "package": "com.soulmates.app",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION", "READ_MEDIA_IMAGES"]
+    }
+  }
+}
